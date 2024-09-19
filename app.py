@@ -4,7 +4,7 @@ import numpy as np
 from PIL import Image
 
 # Load your model
-model = tf.keras.models.load_model('C:/Users/SAUMYADEEP/Desktop/streamlit/happy_sad_cnn_model.h5')
+model = tf.keras.models.load_model('/workspaces/happy_and_sad_classifier/happy_sad_cnn_model.h5')
 
 # Streamlit UI
 st.title("Happy or Sad Classifier")
